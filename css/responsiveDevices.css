@@ -1,0 +1,34 @@
+/* Use a media query to add a breakpoint at 320px: */
+@media screen and (min-width: 320px) {
+  .navBar{ height: 100px; background-color:	#ff6f69; }
+}
+
+/* Use a media query to add a breakpoint at 375px: */
+@media screen and (min-width: 375px) {
+  .navBar{ height: 100px; background-color:	#ffeead; }
+}
+
+/* Use a media query to add a breakpoint at 414px: */
+@media screen and (min-width: 414px) {
+  .navBar{ height: 100px; background-color:	#ffcc5c; }
+}
+
+/* Use a media query to add a breakpoint at 568px: */
+@media screen and (min-width: 568px) {
+  .navBar{ height: 100px; background-color:	#fa7e1e; }
+}
+
+/* Use a media query to add a breakpoint at 768px: */
+@media screen and (min-width: 768px) {
+  .navBar{ height: 100px; background-color:	#4f5bd5; }
+}
+
+/* Use a media query to add a breakpoint at 1024px: */
+@media screen and (min-width: 1024px) {
+  .navBar{ height: 100px; background-color:	#00c2c7; }
+}
+
+/* Use a media query to add a breakpoint at 1024px: */
+@media screen and (min-width: 1200px) {
+  .navBar{ height: 100px; background-color:	#9e3d64; }
+}
