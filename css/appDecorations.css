@@ -19,8 +19,38 @@ time, mark, audio, video {
     background:transparent;
 }
 
-body{ margin-top: 0; }
+/* Body text font is set to arial or Helvetica or sans-serif */
+body{ margin-top: 0; font-family: Arial, Helvetica, sans-serif; }
 
-.container{ margin: auto; width: 90%; }
+/* this is container which store the complete navigation bar */
+.container{ margin: auto; width: 90%; overflow: hidden; position: relative; }
 
-.navBar{ height: 100px; background-color:	#88d8b0; }
+/* This is navbar inside conatiner */
+.navBar{ background-color:	#88d8b0;}
+
+/* This is a class for logo */
+.container .active{ background: #6497b1; }
+
+/* This  is id for dropdown menus of caret */
+.container .navBar #myLinks{
+  display: none;
+ }
+
+/* This is for anchor tag and it is inside container < navbar < a */
+.container .navBar a{
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+ }
+
+/* This is for icon tag which is inside of container < navbar < a < icon */
+.container .navBar .icon{
+  color: 	white;
+  padding: 5px;
+  background-color: #6497b1;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
