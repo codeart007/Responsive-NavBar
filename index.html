@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/appDecorations.css">
     <link rel="stylesheet" href="css/responsiveDevices.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
   </head>
   <body>
-    <div class="container">
-      <div class="navBar">
-
+    <div class="container"><!-- This is the container to store all navigation bar -->
+      <div class="navBar"><!-- This nav bar main class -->
+        <a href="#home" class="active">Logo</a><!-- this class is used for logo -->
+        <div id="myLinks"><!-- This link are active when caret is clicked using javascript -->
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a class="icon" href="javascript:void(0);" onclick="clickCaret()"><!-- This ia caret -->
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
+
+
+    <script src="js/appBehaviour.js" type="text/javascript"></script><!--External javascript -->
   </body>
 </html>
