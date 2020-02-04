@@ -21,6 +21,22 @@
 /* Use a media query to add a breakpoint at 768px: */
 @media screen and (min-width: 768px) {
 
+  /* This  is id for dropdown menus of caret */
+  .container .navBar #myLinks{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    top: 0;
+   }
+
+   .container .navBar #myLinks a{
+     float: left;
+    }
+
+  /* This is for icon tag which is inside of container < navbar < a < icon */
+  .container .navBar .icon{
+    display: none;
+  }
 }
 
 /* Use a media query to add a breakpoint at 1024px: */
@@ -30,5 +46,5 @@
 
 /* Use a media query to add a breakpoint at 1024px: */
 @media screen and (min-width: 1200px) {
-  
+
 }
